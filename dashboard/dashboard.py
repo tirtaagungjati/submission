@@ -53,8 +53,8 @@ def create_byweather_df(df):
     return weather_df
 
 # Load cleaned data
-day_clean_df = pd.read_csv('dashboard/main_data.csv')
-hour_df = pd.read_csv('data/hour.csv')
+day_clean_df = pd.read_csv("dashboard/main_data.csv")
+hour_df = pd.read_csv("data/hour.csv")
 
 # Filter data
 day_clean_df["dteday"] = pd.to_datetime(day_clean_df["dteday"])
@@ -63,8 +63,8 @@ min_date = day_clean_df["dteday"].min()
 max_date = day_clean_df["dteday"].max()
 
 with st.sidebar:
-    # Menambahkan logo perusahaan
-    st.image("undraw_bike_ride_7xit.png")
+    # Menambahkan logo 
+    st.image("dashboard/undraw_bike_ride_7xit.png")
     
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
