@@ -20,3 +20,12 @@ streamlit run dashboard.py
 
 ## Streamlit Cloud 
 Link Streamlit Tirta: <a href='https://bikesharing-tirtaaj.streamlit.app/' target='_blank' title='Bike Sharing Dashboard by Tirta Agung Jati | Streamlit'>Bike Sharing Dashboard by Tirta Agung Jati</a>
+
+## Berikut Tampilan atau hasil screenshot dari dashboard
+
+![](ss_dashboard1.png)
+![](ss_dashboard2.png)
+![](ss_dashboard3.png)
+![](ss_dashboard4.png)
+![](ss_dashboard5.png)
+![](ss_dashboard6.png)
