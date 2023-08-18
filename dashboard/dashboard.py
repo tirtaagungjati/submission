@@ -53,8 +53,8 @@ def create_byweather_df(df):
     return weather_df
 
 # Load cleaned data
-day_clean_df = pd.read_csv("../dashboard/main_data.csv")
-hour_df = pd.read_csv("../data/hour.csv")
+day_clean_df = pd.read_csv('main_data.csv')
+hour_df = pd.read_csv('../data/hour.csv')
 
 # Filter data
 day_clean_df["dteday"] = pd.to_datetime(day_clean_df["dteday"])
